@@ -1,6 +1,6 @@
 // Write a method size that returns the total number of nodes in the tree.  
 
-public class getSize
+public class GetSize
 {
    private IntTreeNode overallRoot;
    
