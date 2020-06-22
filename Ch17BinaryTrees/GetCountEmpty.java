@@ -28,7 +28,7 @@ public class GetCountEmpty
       return countEmpty(overallRoot);
   }
   
-  public int countEmpty(IntTreeNode root)
+  private int countEmpty(IntTreeNode root)
   {
       if(root == null)
       {
