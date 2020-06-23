@@ -23,7 +23,7 @@ public class GetPrintLeaves
    
    public void printLeaves()
    { 
-       if(overallRoot == null)
+       if(overallRoot == null)
        {
            System.out.println("no leaves");
        }
