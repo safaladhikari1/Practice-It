@@ -1,3 +1,5 @@
+// Write a method averageLength of code that computes and returns the average String length of the elements of an array of Strings. For example, if the array contains {"belt", "hat", "jelly", "bubble gum"}, the average length returned should be 5.5. Assume that the array has at least one element.
+
 public class AverageLength
 {
    public static void main(String[] args)

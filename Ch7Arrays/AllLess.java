@@ -1,3 +1,5 @@
+// Write a method called allLess that accepts two arrays of integers and returns true if each element in the first array is less than the element at the same index in the second array.
+
 public class AllLess
 {
    public static void main(String[] args)
