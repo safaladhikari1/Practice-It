@@ -35,33 +35,23 @@ public class IsUnique
       
       System.out.println(testMap2);
       
-      
-      
+          
       System.out.println(isUnique(testMap1));
-
-      
-            
+           
    }
    
    public static boolean isUnique(Map<String, String> map)
    {
-      if(map.size() == 0)
-      {
-         return true;
-      }
-      else
-      {
-         List<String> testList = new ArrayList<String>();
-         
-         for(String key: map.keySet())
-         {
-            String value = map.get(key);
-            testList.add(value);       
-         }
-         
-         Set<String> testHashSet = new HashSet<String>(testList);
-         
-         return testList.size() == testHashSet.size();   
-      }             
+      Set<String> keySet = map.keySet();
+      Collection<String> valueCollection = map.values();
+      
+      // to remove the duplicates we will bring valueCollection to HashSet
+      
+      HashSet<String> valueNoDuplicates = new HashSet<String>(valueCollection);
+      
+      // compare the size between keySet.size() and valueNoDuplicates.size()
+      
+      return keySet.size() == valueNoDuplicates.size();
+                     
    }
 }
