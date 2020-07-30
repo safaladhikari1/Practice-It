@@ -8,7 +8,6 @@ public class WriteNums
 {
    public static void main(String[] args)
    {
-      //writeNums(5);
       writeNums(12);
    }
    
